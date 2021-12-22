@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô tả Temperature</title>
+    <script src="Temperature.js"></script>
+</head>
+<body>
+<script>
+    temperature = new Temperature();
+    temperature.setCelsius(25);
+    temperature.getCelsius();
+    temperature.getFahrenheit();
+    temperature.getKenvin();
+    document.write('nhiệt độ F =' + temperature.getCelsiusToFahrenheit() + 'nhiệt độ Kenvin = ' + temperature.getCelsiusToKenvin());
+</script>
+</body>
+</html>
